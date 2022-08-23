@@ -1,33 +1,17 @@
-/* 
-Elaborar un programa que simule una clave de acceso. Si el
-usuario es: "ADMIN" y la clave "123456" mostrar el mensaje
-"ACCESO PERMITIDO". Caso contrario, mostrar el mensaje
-!"ACCESO DENEGADO".
+const login = (user, pass) => {
+     /*   if (user === 'ADMIN' && pass === '123456') {
+           console.log('Permitido');
+       }else{
+           console.log('Denegado');
+       }     */
 
-
-exp ? 'SI' : 'NO'
-*/
-/* 
- //ASas
-*/
-
-const login = (user, pass ) => {
-
-    let exp = user === 'AdmiN' && pass === '123456' 
-    
-    /* if (user === 'AdmiN' && pass === '123456') {
-        console.log('ACCESO PERMITIDO');
-    }else{
-        console.log('ACCESO DENEGADO');
-    } */
-    
-    return exp ? 'ACCESO PERMITIDO' : 'ACCESO DENEGADO'
-    
-
+    let result = user === 'ADMIN' && pass === '123456' ? 'permitido' : 'Denegado';
+    console.log(result);
 }
 
-console.log(login('AdmiN', '123456'))
+console.log('login(ADMIN,123456)');
+login('ADMIN', '123456')
 
-login('admin', '123456')
+console.log('login(Admin,123456)');
+login('Admin', '123456')
 
-login('ADMIN', '12345')
