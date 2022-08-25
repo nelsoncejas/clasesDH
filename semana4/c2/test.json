@@ -1,0 +1,186 @@
+[
+  {
+    "PREFIATR": "I",
+    "CODATR": "AÑO",
+    "DESCRIPCION": "AÑO                 ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2021-12-20T15:08:38.243"
+  },
+  {
+    "PREFIATR": "P",
+    "CODATR": "AUT",
+    "DESCRIPCION": "Autor. FACT. SERVI  ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2008-03-18T19:18:55.59"
+  },
+  {
+    "PREFIATR": "C",
+    "CODATR": "CAR",
+    "DESCRIPCION": "CARGO LUQUIN        ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2022-07-18T17:56:42.86"
+  },
+  {
+    "PREFIATR": "C",
+    "CODATR": "CAT",
+    "DESCRIPCION": "CATEGORIA           ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2007-06-29T12:46:11.753"
+  },
+  {
+    "PREFIATR": "P",
+    "CODATR": "CLA",
+    "DESCRIPCION": "CLASIFICACION       ",
+    "POSICION": 1,
+    "LARGO": 1,
+    "FECHAREG": "2000-01-01T00:00:00"
+  },
+  {
+    "PREFIATR": "I",
+    "CODATR": "DIS",
+    "DESCRIPCION": "DISCIPLINA          ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2021-05-06T18:03:59.507"
+  },
+  {
+    "PREFIATR": "I",
+    "CODATR": "DTO",
+    "DESCRIPCION": "ACEPTA DESCUENTOS   ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2020-10-08T11:25:02.08"
+  },
+  {
+    "PREFIATR": "C",
+    "CODATR": "EMP",
+    "DESCRIPCION": "EMPLEADO LUQUIN     ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2016-05-09T10:27:00.67"
+  },
+  {
+    "PREFIATR": "C",
+    "CODATR": "ENC",
+    "DESCRIPCION": "ENCARGADOS          ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2014-08-25T10:33:13.66"
+  },
+  {
+    "PREFIATR": "I",
+    "CODATR": "EST",
+    "DESCRIPCION": "ESTACION            ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2018-04-17T15:14:04.76"
+  },
+  {
+    "PREFIATR": "C",
+    "CODATR": "FID",
+    "DESCRIPCION": "CLUB MILENIA        ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2019-03-29T15:30:46.77"
+  },
+  {
+    "PREFIATR": "P",
+    "CODATR": "GRU",
+    "DESCRIPCION": "RUBRO PROVEEDOR     ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2022-04-28T09:33:21.69"
+  },
+  {
+    "PREFIATR": "I",
+    "CODATR": "MAT",
+    "DESCRIPCION": "MATERIALES          ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2022-07-28T11:12:14.14"
+  },
+  {
+    "PREFIATR": "I",
+    "CODATR": "ORI",
+    "DESCRIPCION": "ORIGEN              ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2015-10-01T16:24:43.39"
+  },
+  {
+    "PREFIATR": "P",
+    "CODATR": "PAG",
+    "DESCRIPCION": "FORMA PAGO PROV     ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2016-08-19T17:44:53.95"
+  },
+  {
+    "PREFIATR": "I",
+    "CODATR": "PRE",
+    "DESCRIPCION": "PRECIOS             ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2007-06-29T12:45:11.58"
+  },
+  {
+    "PREFIATR": "I",
+    "CODATR": "PRO",
+    "DESCRIPCION": "MARCAS PROVEEDORES  ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2022-07-18T15:01:26.133"
+  },
+  {
+    "PREFIATR": "I",
+    "CODATR": "RUB",
+    "DESCRIPCION": "RUBRO               ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2022-03-04T14:43:49.34"
+  },
+  {
+    "PREFIATR": "I",
+    "CODATR": "SEC",
+    "DESCRIPCION": "SECCION             ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2020-07-06T10:06:27.357"
+  },
+  {
+    "PREFIATR": "C",
+    "CODATR": "SUC",
+    "DESCRIPCION": "SUCURSAL            ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2021-11-16T16:19:45.64"
+  },
+  {
+    "PREFIATR": "I",
+    "CODATR": "TIP",
+    "DESCRIPCION": "TIPO                ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2022-04-01T15:25:02.493"
+  },
+  {
+    "PREFIATR": "C",
+    "CODATR": "TLS",
+    "DESCRIPCION": "Todas las Suc       ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2012-10-24T18:14:32.763"
+  },
+  {
+    "PREFIATR": "I",
+    "CODATR": "VAL",
+    "DESCRIPCION": "Valor del articulo  ",
+    "POSICION": null,
+    "LARGO": null,
+    "FECHAREG": "2020-01-06T17:12:28.6"
+  }
+]
