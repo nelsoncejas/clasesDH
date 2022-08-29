@@ -1,88 +1,130 @@
-/* 
+/* /* 
  1 KAHOOT
  2 DUDAS
- 3 MDT CUENTAS
+ 3 Ejercitación
 
 */
 
+/* let numeros = [1,2,3,'ultimo elemento']
+//numeros.length = 4
+// (i++) no es exactamente igual (i = i + 1)
 
-function esImpar(a, b) {
-    
-    if ((a + b) % 2 === 0) {
-        return false
-    }else{
-        return true
-    }
-}
+console.log(numeros[numeros.length - 1]); */
 
-/* console.log(esImpar(6,4)); // false
-console.log(esImpar(6,5)); // true
-
- */
-
-
-
-/*
- ?1 - Desarrollar una funcion que reciba por param el 
- ? array y calcule el promedio
-
- ??  
-   *si promedio >= 7  return true
-   *caso contrario    return false
-
+/* 
+2 - 
+    ? Desarrollar una función que reciba 2 numeros y 
+    ? retorne la suma de ambos, si el primer parametro es mayor, 
+    ? caso contrario retornar la resta.
 */
 
-
-
-
-let numeros = [9, 10, 10, 5 ,6];
-
-let notas   = [1, 2, 4, 10 ,6];
-
-for (let i = 0; i < numeros.length; i++) {
+function sumaOResta(nroA, nroB) {      
+    let calculo = 0;
     
-    console.log(numeros[i] > notas[i]);
-    
+    if (nroA > nroB) {
+        calculo =  nroA + nroB
+    }else {
+        calculo = nroB - nroA   
+    }  
+    return calculo;
 }
+let sumaR = (nroA, nroB) => nroA > nroB ? nroA + nroB : nroB - nroA;
 
-/* function promedio(arrayNumeros) {
-    let sumatoria = 0;
-    
-    for (let i = 0; i < arrayNumeros.length; i++) {
-        // 0      =      0    +    0
-        // 1     =      1    +    1
-        // 2     =      2    +    2
-        sumatoria = sumatoria + arrayNumeros[i]
-        //sumatoria += arrayNumeros[i]
+/* console.log(sumaR(5, 2))
+console.log(sumaR(5, 20))
+console.log(sumaR(5, 5)) */
+
+
+
+/* 
+    ?Funcion que reciba el array de personas y un id a buscar, 
+    ?retorne la persona en caso de encontrar, 
+
+   ?caso contrario retorne null 
+
+    */
+
+let personas = [
+    {
+      id: 0,
+      isProgrammer: true,
+      age: 28,
+      name: "Persona no grata",
+      company: "TRANSLINK",
+      favoriteFruit: "strawberry"
+    },
+    {
+      id: 1,
+      isProgrammer: false,
+      age: 38,
+      name: "Greta Morton",
+      company: "PYRAMI",
+      favoriteFruit: "apple"
+    },
+    {
+      id: 2,
+      isProgrammer: false,
+      age: 32,
+      name: "Hester Bowen",
+      company: "TURNABOUT",
+      favoriteFruit: "apple"
+    },
+    {
+      id: 2,
+      isProgrammer: false,
+      age: 32,
+      name: "PEPE",
+      company: "TURNABOUT",
+      favoriteFruit: "apple"
+    },
+    {
+      id: 3,
+      isProgrammer: false,
+      age: 25,
+      name: "Melendez Mcfarland",
+      company: "XSPORTS",
+      favoriteFruit: "strawberry"
+    },
+    {
+      id: 4,
+      isProgrammer: false,
+      age: 31,
+      name: "Kimberly Matthews",
+      company: "KNOWLYSIS",
+      favoriteFruit: "banana"
+    },
+    {
+      id: 5,
+      isProgrammer: false,
+      age: 36,
+      name: "Hardin Sims",
+      company: "SEALOUD",
+      favoriteFruit: "banana"
+    },
+    {
+      id: 6,
+      isProgrammer: false,
+      age: 29,
+      name: "Natalia Huff",
+      company: "ENERSOL",
+      favoriteFruit: "apple"
+    }
+  ]
+
+  // BUSQUEDA LINEAL
+function buscar(arrayPersonas, id){
+
+    for (let i = 0; i < arrayPersonas.length; i++) {
+       
+        if (id === arrayPersonas[i].id) {
+            //RETURN CORTA LA FUNCION
+            return arrayPersonas[i];
+        }
+        
     }
 
-    let res = sumatoria / arrayNumeros.length
+    return null;
 
-    if (res >= 7) {
-        return true
-    } else {
-        return false
-    }
-
-   // return res >= 7; // bool
-} */
-
-// console.log(promedio(numeros));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+console.log(buscar(personas,2 )) // UN objeto literal
+console.log(buscar(personas,888 )) // NULL
