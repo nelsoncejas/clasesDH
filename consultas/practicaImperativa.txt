@@ -3,9 +3,11 @@ Dejo Desafío para quien quiera practicar,                                      
 A - Nivel 1
 
 1 - Desarrollar una función que reciba 2 numeros y retorne la suma de ambos
+
 2 - Desarrollar una función que reciba 2 numeros y 
      retorne la suma de ambos, si el primer parametro es mayor, 
      caso contrario retornar la resta.
+
 3 - Desarrollar una función que reciba 4 numeros y calcular la suma de total
      si el el resultado es mayor o igual a 7, retornar 'Aprobado', 
      caso contrario retornar 'otra chance '.
@@ -15,8 +17,8 @@ A - Nivel 1
      caso contrario retornar el doble del total.
 
 
-
 B  Nivel 2
+
 - Declarar 3 arrays de edades por ejemplo -> [10, 9, 8, 22, 55, 80, 5, 63, 29, 9] , luego desarrollar las siguientes funciones:
 
 1 - Funcion que reciba un array de edades y retorne el promedio 
@@ -64,65 +66,64 @@ C  Nivel 3
        retorne la persona en caso de encontrar, 
        caso contrario retorne null 
 
-
-[
+let personas = [
     {
-      "id": 0,
-      "isProgrammer": true,
-      "age": 28,
-      "name": "Harrington Curry",
-      "company": "TRANSLINK",
-      "favoriteFruit": "strawberry"
+        id: 10,
+        isProgrammer: true,
+        age: 28,
+        name: "Harrington Curry",
+        company: "TRANSLINK",
+        favoriteFruit: "strawberry"
     },
     {
-      "id": 1,
-      "isProgrammer": false,
-      "age": 38,
-      "name": "Greta Morton",
-      "company": "PYRAMI",
-      "favoriteFruit": "apple"
+        id: 90,
+        isProgrammer: true,
+        age: 38,
+        name: "Greta Morton",
+        company: "PYRAMI",
+        favoriteFruit: "apple"
     },
     {
-      "id": 2,
-      "isProgrammer": false,
-      "age": 32,
-      "name": "Hester Bowen",
-      "company": "TURNABOUT",
-      "favoriteFruit": "apple"
+        id: 22,
+        isProgrammer: false,
+        age: 32,
+        name: "Hester Bowen",
+        company: "TURNABOUT",
+        favoriteFruit: "apple"
     },
     {
-      "id": 3,
-      "isProgrammer": false,
-      "age": 25,
-      "name": "Melendez Mcfarland",
-      "company": "XSPORTS",
-      "favoriteFruit": "strawberry"
+        id: 123,
+        isProgrammer: false,
+        age: 25,
+        name: "Melendez Mcfarland",
+        company: "XSPORTS",
+        favoriteFruit: "strawberry"
     },
     {
-      "id": 4,
-      "isProgrammer": false,
-      "age": 31,
-      "name": "Kimberly Matthews",
-      "company": "KNOWLYSIS",
-      "favoriteFruit": "banana"
+        id: 77,
+        isProgrammer: false,
+        age: 31,
+        name: "Kimberly Matthews",
+        company: "KNOWLYSIS",
+        favoriteFruit: "banana"
     },
     {
-      "id": 5,
-      "isProgrammer": false,
-      "age": 36,
-      "name": "Hardin Sims",
-      "company": "SEALOUD",
-      "favoriteFruit": "banana"
+        id: 5,
+        isProgrammer: false,
+        age: 36,
+        name: "Hardin Sims",
+        company: "SEALOUD",
+        favoriteFruit: "banana"
     },
     {
-      "id": 6,
-      "isProgrammer": false,
-      "age": 29,
-      "name": "Natalia Huff",
-      "company": "ENERSOL",
-      "favoriteFruit": "apple"
+        id: 6,
+        isProgrammer: false,
+        age: 29,
+        name: "Natalia Huff",
+        company: "ENERSOL",
+        favoriteFruit: "apple"
     }
-  ]
+]
 
 
 Tips
@@ -133,3 +134,51 @@ Tips
 
 nota : Se recomienda utilizar estructuras y conceptos vistos en la materia
 ```
+
+
+
+const arrayCuentas =
+[
+    {
+      titular: "Arlene Barr",
+      estaHabilitada: false,
+      saldo: 3,253.40,
+      edadTitular: 33,
+      tipoCuenta: "sueldo"
+    },
+    {
+      titular: "Roslyn Torres",
+      estaHabilitada: false,
+      saldo: 3,229.45,
+      edadTitular: 27,
+      tipoCuenta: "sueldo"
+    },
+    {
+      titular: "Cleo Lopez",
+      estaHabilitada: true,
+      saldo: 1,360.19,
+      edadTitular: 34,
+      tipoCuenta: "corriente"
+    },
+    {
+      titular: "Daniel Malone",
+      estaHabilitada: false,
+      saldo: 3,627.12,
+      edadTitular: 30,
+      tipoCuenta: "sueldo"
+    },
+    {
+      titular: "Ethel Leon",
+      estaHabilitada: true,
+      saldo: 1,616.52,
+      edadTitular: 34,
+      tipoCuenta: "sueldo"
+    },
+    {
+      titular: "Harding Mitchell",
+      estaHabilitada: true,
+      saldo: 1,408.68,
+      edadTitular: 25,
+      tipoCuenta: "corriente"
+    }
+  ]

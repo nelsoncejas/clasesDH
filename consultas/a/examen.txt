@@ -1,0 +1,19 @@
+/* 
+    ?Desarrollar una función que reciba 2 numeros y 
+    ?retorne la suma de ambos, si el primer parametro es mayor, 
+    ?caso contrario retornar la resta.
+*/
+
+function operacion(a, b) {
+    if (a > b) {
+        return a + b
+    }else{
+        return a - b
+    }
+}
+
+/* let resultado = operacion(5 , 7);
+console.log(resultado);
+
+console.log(operacion(9 , 7));
+console.log(operacion(7 , 7)); */

@@ -7,10 +7,9 @@ if (juega === 's') {
     let nroElegido = parseInt(prompt('Elige un numero del 1 al 10 : '));
 
     let jugada = nroElegido === nroRandom;
-    
     while(!jugada){
         nroElegido = parseInt(prompt('Intenta de nuevo 😫 :'));
-        jugada = nroElegido === nroRandom;
+        jugada = nroElegido === nroRandom;    
     }
 
     console.log(`Felicidades el numero random es ${nroRandom} 🙋`); 
