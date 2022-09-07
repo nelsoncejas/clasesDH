@@ -17,3 +17,4 @@ if (juega === 's') {
 }else{
     console.log('Gracias, vuelvas prontos'); 
 } 
+
