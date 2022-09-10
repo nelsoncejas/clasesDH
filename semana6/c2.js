@@ -1,48 +1,48 @@
-// let numeros = [1,'2','3','4']
+let array = ['a','a','a'];
+
+/* console.log(array);
+console.log(array.length);
+console.log(array[0]);
+
+for (let i = 0; i < array.length; i++) {
+    console.log(array[i])
+} */
 
 let matriz = 
 [
     ['a','a','a'], // 0
-    ['b','0','b'], // 1
+    ['b','X','b'], // 1
     ['c','c','c']  // 2
 ];
+
+// console.log(matriz.length);
 
 console.table('***************');
 console.table(matriz);
 console.table('***************');
 
-// console.log(matriz.length); // 3
-
-// console.log(matriz[0]); //  ['a','a','a']
-// console.log(matriz[1]); //  ['b','b','b']
-// console.log(matriz[2]); //  ['c','c','c']
 
 
-/* for (let i = 0; i < matriz.length; i++) {
-    const fila = matriz[i];
-    // console.log(fila);
-    for (let j = 0; j < fila.length; j++) {
-        const elemento = fila[j];
-    }
-}
- */
+    //                i  i 
+  /*   console.log(matriz[0][0]); // a
+    console.log(matriz[1][1]); // X
+    console.log(matriz[2][2]); // c */
 
-//
-/* for (let i = 0; i < matriz.length; i++) {
-    for (let j = 0; j < matriz[i].length; j++) {
-        console.log(matriz[i][j]);;
-    }
-}
- */
-
-
-function primerColumna(matriz) {
-    let arrayPrimerColumna = matriz[0]
- 
+/* function imprimirDiagonal(matriz){
     for (let i = 0; i < matriz.length; i++) {
-        arrayPrimerColumna.push(matriz[i][0])
-        
+        //console.log(i);
+        console.log(matriz[i][i]);
     }
-    return arrayPrimerColumna
 }
-console.log(primerCol(matrizCuadrada));
+
+imprimirDiagonal(matriz) */
+function recorrerTodosElementos(matriz) {
+    for (let i = 0; i < matriz.length; i++) {
+        //const element = matriz[i];
+        for (let j = 0; j < matriz[i].length; j++) {
+            console.log(matriz[i][j]);
+        }
+    }
+}
+
+recorrerTodosElementos(matriz)

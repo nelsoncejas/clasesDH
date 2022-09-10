@@ -1,4 +1,4 @@
-let students = [
+/* const students = [
     "Lucas astesiano",
     "Yamall Avalos",
     "Erika Lizeth Burgos Baez",
@@ -46,8 +46,64 @@ let students = [
     "victoria villar",
     "Michelle Buvoli",
     "Daniel Murcia"
-];
+];  */
+
 let winners = [];
+
+const students = [
+    'BeckyGimenez',
+    'BrahianPuschiasis',
+    'BrianRobaina',
+    'CamilaGuerra',
+    'CarlaPere',
+    'CarmenZeballos',
+    'CeciliaRamos',
+    'CeciliaSuarez',
+    'Ciro GabrielSereno',
+    'CristianBenítez',
+    'CynthiaRocha',
+    'DAHIANADA COSTA LEITES LUZ',
+    'DanielAbila',
+    'Daniel AgustinBertone Gonzalez',
+    'DanielAranivar',
+    'DANIELCAMANDULLE',
+    'DayanaSilva',
+    'DeividGonzalez',
+    'DelfinaRipoll',
+    'DiegoCancela',
+    'Diegode la Barrera',
+    'DiegoParada',
+    'DiegoPerez',
+    'Dulce MariaViltre Castellanos',
+    'EmilianoLauga',
+    'EmilianoRodríguez',
+    'ENRIQUEPALERMO',
+    'EnzoMarrero',
+    'EugenioPereira',
+    'Fabián NicolasPérez Graces',
+    'FacundoCorrea',
+    'FacundoRodriguez',
+    'FedericoMolina',
+    'FiorellaCrocco',
+    'FlorenciaBicca',
+    'FrancoAnsaldi',
+    'GabrielAcosta',
+    'GabrielRostán',
+    'GabrielaRincón',
+    'Gastón AndrésReyes Tejeria',
+    'GastonBello',
+    'GastónPazos',
+    'GermanArmesto',
+    'IgnacioRobaina',
+    'JoselinListur',
+    'María BelénBalsemao Azar',
+    'María CarolinaFaccio',
+    'MARIA MAGDALENACALASSO MACHIN',
+    'MartinMosquera',
+    'MatiasBianchi',
+    'NidiaRodriguez',
+    'SergioContreras'];
+
 
 const generateTeams = (students, participants) => {
     let winnersNow = [];
@@ -63,14 +119,14 @@ const generateTeams = (students, participants) => {
     return new Promise(resolve => {
         setTimeout(() => {
             resolve(winnersNow);
-        }, 1000);
+        }, 2000);
     });
 };
 
 
 async function asyncCall() {
     console.log('🥁 🥁 🥁 🥁 🥁 ');
-    const result = await generateTeams(students, 3);
+    const result = await generateTeams(students, 4);
     console.log('🥁 🥁 🥁 🥁 🥁 ');
     console.table(result);
 }
