@@ -110,7 +110,7 @@ const generateTeams = (students, participants) => {
     let filter = students.filter(e => !winners.includes(e))
     //console.table(filter)
     for (let i = 0; i < participants; i++) {
-        const nroRandom = Math.floor(Math.random() * 46) + 1;
+        const nroRandom = Math.floor(Math.random() * students.length) + 1;
         const student = students[nroRandom];
         winners.push(student);
         winnersNow.push(student);
