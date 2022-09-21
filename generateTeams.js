@@ -1,4 +1,4 @@
-const students = [
+/* const students = [
     "Lucas astesiano",
     "Yamall Avalos",
     "Erika Lizeth Burgos Baez",
@@ -46,11 +46,11 @@ const students = [
     "victoria villar",
     "Michelle Buvoli",
     "Daniel Murcia"
-]; 
+]; */ 
 
 let winners = [];
 
-/* const students = [
+const students = [
     'BeckyGimenez',
     'BrahianPuschiasis',
     'BrianRobaina',
@@ -103,7 +103,7 @@ let winners = [];
     'MatiasBianchi',
     'NidiaRodriguez',
     'SergioContreras'];
- */
+
 
 const generateTeams = (students, participants) => {
     let winnersNow = [];
