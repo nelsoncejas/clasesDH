@@ -58,14 +58,6 @@ const busquedaBinaria = (array, item) => {
 
 listDesordenada.sort((a,b) => a - b);
 
-function order (array){
-    for (let i = 0; i < array.length; i++) { // n
-        for (let j = 0; j < array.length - 1; j++) { // n 
-            //swap
-        }
-    }
-}
-
 
 console.table(listDesordenada);
 console.log(busquedaBinaria(listDesordenada, 4))
